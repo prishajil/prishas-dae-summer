@@ -10,7 +10,7 @@ pen.hideturtle()
 pen.speed(0)
 
 #Word bank and the game's variables
-word_list = ["python", "hangman", "turtle", "code", "drawing"]
+word_list = ["python", "turtle", "code", "drawing"]
 chosen_word = random.choice(word_list)
 guessed_letters = []
 wrong_guesses = 0
