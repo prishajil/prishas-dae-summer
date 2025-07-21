@@ -124,6 +124,3 @@ if all(letter in guessed_letters for letter in chosen_word):
 else:
     print("\nGame Over.")
     print(f"The word was: {chosen_word}")
-#That block checks if all the letters in the word have been guessed. 
-#If they have, it says you won and shows the word. if not, 
-#it ends the game and tells you the answer
